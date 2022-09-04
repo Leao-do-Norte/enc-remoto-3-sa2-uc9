@@ -334,8 +334,20 @@ footer{
         font-size: 25px;
         white-space: nowrap;
     }
+    .cabecalho{
+        position: relative;
+    }
     .menu{
         display: none;
+        position: absolute;
+        top: 100px;
+        right: 0px;
+        height:200px;
+        width: 40vw;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #d9d9d9;
     }
     .menu-toggle{
         display: flex;
